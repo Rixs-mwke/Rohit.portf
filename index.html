@@ -17,14 +17,16 @@
         .home {
             text-align: center;
             background-color: brown;
-            padding: 60px;
+            padding: 40px 20px;
             border-radius: 20px; }
     .menu {
-    width: 90%;
+    max-width: 1000px;
+        width: 100%;
     margin: auto;
         background-color: lightblue;
         padding: 20px;
         border-radius: 10px;
+        box-sizing: border-box;
     }
            .color {
             text-align: left;
@@ -35,13 +37,33 @@
         h1 { text-align: center;
            margin-bottom: 5px;
             background-color: lightgreen;
-            padding: 30px;
-            border-radius: 40px;
+            padding: 20px;
+            border-radius: 30px;
+            font-size: rem;
            }
         .skills {
             text-align: left;
             color: red;
              }
+        @media only screen and (max-width: 768px) {
+            .menu {
+                padding: 10px;
+            }
+                .home {
+                    padding: 20px 10px;
+                }
+            h1 { font-size: 1.2rem;
+               }
+          h2  { font-size: 1.2rem;
+              }
+            .profile { 
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+            pi, li {
+                font-size: 1rem;
+            }
     </style>
     </head>
     <body>
@@ -84,6 +106,7 @@ a full-stack developer with expertise in cloud infrastructure.</P> <div />
         </div>
  </body>
 </html>
+
 
 
 
