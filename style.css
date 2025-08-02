@@ -1,0 +1,54 @@
+{ 
+    margin: 0;
+padding: 0;
+box:sizing: border-box;
+ }
+body {
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.menu {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+border: 2px; solid #0073e6;
+margin-bottom: 10px;
+}
+.profile {
+    text-align: left;
+    color: chocolate;
+}
+.home {
+    text-align: center;
+    background-color: lavenderblush;
+    border: 2px;
+    padding: 3px;
+    width: fit-content;
+    border-radius: 4px;
+    font-weight: bold;
+    color: blueviolet;
+    margin: 10px;
+}
+.vision {
+    text-align: left;
+    font-weight: bold;
+    color: blue;
+}
+.skills {
+    text-align: left;
+    font-weight: bold;
+    color: blue;
+}
+.about {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+.contact {
+    text-align: left;
+    font-weight: bold;
+    color: blue;
+}
